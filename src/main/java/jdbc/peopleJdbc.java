@@ -32,23 +32,23 @@ public class peopleJdbc {
         System.out.println("1");
         System.out.println("\nPeoples:");
 
-        /*while (resultSet.next()) {
+        while (resultSet.next()) {
             int id = resultSet.getInt("id");
             String name = resultSet.getString("name");
-            String specialty = resultSet.getString("specialty");
-            int salary = resultSet.getInt("salary");
+            String number = resultSet.getString("fone_number");
+            String email = resultSet.getString("email");
 
             System.out.println("\n================\n");
             System.out.println("id: " + id);
             System.out.println("Name: " + name);
-            System.out.println("Specialty: " + specialty);
-            System.out.println("Salary: $" + salary);
+            System.out.println("number: " + number);
+            System.out.println("email: $" + email);
         }
 
         System.out.println("Closing connection and releasing resources...");
         resultSet.close();
         statement.close();
-        connection.close();*/
+        connection.close();
 
     }
 
