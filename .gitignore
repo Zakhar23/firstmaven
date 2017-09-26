@@ -4,3 +4,6 @@
 firstmaven.iml
 
 Would skip repository src/
+src/main/resources/
+src/test/
+target/
